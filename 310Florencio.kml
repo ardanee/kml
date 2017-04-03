@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>310 - Florencio.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fff7f4ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fff7f4ff</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>310 - Florencio</name>
+		<visibility>0</visibility>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-90.79505673990049,14.01283005678626,0 -90.79473093525493,14.0127225169317,0 -90.79448102624608,14.01265660861531,0 -90.79432477293997,14.01262116573791,0 -90.79421319613908,14.01313760519682,0 -90.79404810826584,14.01392251604644,0 -90.79383085636934,14.01496630758844,0 -90.79360433095678,14.01595311593187,0 -90.79346630943708,14.01679935556538,0 -90.79337211924934,14.01720293463291,0 -90.79393977614831,14.01724834015256,0 -90.79336391945803,14.01908872492588,0 -90.79291146246935,14.01896997675216,0 -90.79264264275405,14.01988135845543,0 -90.79293953298387,14.01992288545572,0 -90.79337106987207,14.01997746660116,0 -90.79357111689465,14.01945055640837,0 -90.79420532087565,14.01748468003541,0 -90.79471329392182,14.015650934253,0 -90.79503092130655,14.01478538247753,0 -90.79517276321343,14.01422561493558,0 -90.79502235866637,14.01417192900657,0 -90.7948474456613,14.01410736537266,0 -90.7947066813083,14.01406752350594,0 -90.79491619154722,14.01334517157326,0 -90.79504568419854,14.01288953879236,0 -90.79505673990049,14.01283005678626,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
