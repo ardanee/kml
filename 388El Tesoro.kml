@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>388 - El Tesoro.kml</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fff7f4ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fff7f4ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>388 - El Tesoro </name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-90.7682585839363,14.01914942027375,0 -90.76915981963953,14.01739070125472,0 -90.76990525754445,14.01597452165498,0 -90.76941909178404,14.01550938225176,0 -90.7694135040053,14.01509585976447,0 -90.76974113700932,14.01517071194709,0 -90.76910219578267,14.01452237423786,0 -90.76828022696569,14.01387758716454,0 -90.76727937888899,14.01303532487335,0 -90.76631500692376,14.01251966348221,0 -90.76597241632756,14.01207036995334,0 -90.76535471119826,14.01174507474432,0 -90.76572681460137,14.01025012708927,0 -90.76447645008362,14.01003687909013,0 -90.76208561147837,14.00967557453622,0 -90.76022360032142,14.0092352789407,0 -90.75980115089848,14.00930050256592,0 -90.75936218869877,14.00922501451207,0 -90.75884636150785,14.00909051882136,0 -90.75700331851115,14.00881086915272,0 -90.75493569098069,14.00853665996328,0 -90.75199242564818,14.00798562002482,0 -90.75238351280143,14.01420744504064,0 -90.75540127139264,14.0147568731955,0 -90.75552588284562,14.01747630093057,0 -90.7612099456436,14.01777250148567,0 -90.76311710922005,14.01802577957147,0 -90.76390854876196,14.01807258411642,0 -90.7682585839363,14.01914942027375,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
